@@ -1,4 +1,4 @@
-
+// Linear Search Algorithm
 
 var colors = ['red','blue','white','black'];
 var target = 'white';
@@ -10,7 +10,7 @@ function linearSearch(arr,target){
         }
         
     }
-    return "The Color Not Found..!"
-}
+    return "The Color Not Found..!";
+};
 
-console.log(linearSearch(colors,target))
+console.log(linearSearch(colors,target));
